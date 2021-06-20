@@ -13,7 +13,7 @@ function App(){
         setNum("");
     }
     function TClear(){
-        setNum(num.slice(0,-1));
+        setNum(num.toString().slice(0,-1));
     }
 
     return (
